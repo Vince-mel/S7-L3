@@ -44,7 +44,8 @@ fetch(myLink)
           let newLi = document.createElement("li");
           list.appendChild(newLi).innerText = data[i].title;
         });
-      }
+      
+    }
     }
   })
   .catch((err) => {
